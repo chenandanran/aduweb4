@@ -1,0 +1,909 @@
+
+    *{
+        padding:0;
+        margin:0;
+    }
+    body{
+        background: #ffd1d6;
+    }
+    .Nav{
+        width:100%;
+        height:100px;
+        z-index: 2;
+    }
+    .logo{
+        float:left;
+        width:15%;
+        height:100px;
+        background:black;
+        padding-left:5%;
+        color:white;
+        text-align: center;
+        line-height: 100px;
+    }
+    .logo>a{
+        text-decoration: none;
+    }
+    .menue1{
+        width:60%;
+        height:100px;
+        float:left;
+        background:black;
+        margin:0 auto;
+    }
+    .communite{
+        width:20%;
+        height:100px;
+        float:left;
+        background:black;
+    }
+    .menue1 ul{
+        list-style: none;
+        width:90%;
+        height:100px;
+        padding-left:9%;
+    }
+    .firstManue{
+        float:left;
+        width:18%;
+        height:100px;
+        border-left:1px solid black;
+        border-right:1px solid black;
+        position:relative;
+    }
+    .menue1 .firstManue a{
+        width:100%;
+        color:white;
+        font-size: 25px;
+        text-align: center;
+        line-height: 100px;
+        text-decoration: none;
+        display: block;
+        letter-spacing: 5px;
+        font-style: italic;
+        font-size:25px
+    }
+    .menue1 .firstManue a:hover{
+        font-size:30px;
+        letter-spacing: 10px;
+    }
+    .Nav2{
+        width:100%;
+        height:100px;
+        position:fixed;
+        top:0;
+        left:0;
+       opacity:0.5;
+        z-index: 1;
+        display:none;
+    }
+    .One{
+    	margin-top:20px;
+    	margin-left:5%;
+        height:600px;
+        width:90%;
+        background:#db1a18;
+        border:5px solid #c6c6c6;
+    }
+    .Two{
+    	margin-left:5%;
+        height:600px;
+        width:90%;
+        background: #0f172a;
+        margin-top:20px;
+        overflow:hidden;
+        border:5px solid #c6c6c6;
+    }
+    .Three{
+        margin-left:5%;
+        border-top:10px solid #00edd2;
+        border-bottom:10px solid #ff4500;
+        overflow:hidden;
+        height:600px;
+        width:90%;
+        background: darkred;
+        border:5px solid #c6c6c6;
+    }
+    .Three .hLi{
+        border-top:4px solid white;
+        border-bottom: 4px solid white;
+        width:50%;
+        float:left;
+        height:92px;
+        text-align: center;
+    }
+    .Four{
+        margin-left: 5%;
+        height:600px;
+        width:90%;
+        background:url('../pic/inner/fourbj.jpg');
+        border:5px solid #c6c6c6;
+    }
+    .menue1 .firstManue ul{
+        list-style: none;
+        height:0;
+        overflow: hidden;
+    }
+    .menue1 .secManue li{
+        border:1px solid white;
+        width:100%;
+        height:30px;
+        background:black;
+    }
+    .menue1 .secManue li a{
+        color:white;
+        font-size:20px;
+        line-height: 30px;
+        display:block;
+        height:30px;
+        width:100%;
+    }
+    .menue1 .secManue li a:hover{
+        font-size:20px;
+        color:gold;
+        line-height: 30px;
+        display:block;
+        height:30px;
+        width:100%;
+
+    }
+    .message{
+        width:100%;
+        position:relative;
+    }
+    .mLogo{
+            width:28%;
+            height:500px;
+        padding-top:50px;
+        float:left;
+        overflow:hidden;
+    }
+    .msg{
+      width:71%;
+        height:600px;
+        float:left;
+        background: #dc1b19;
+    }
+    .msg .musicMenue
+    {
+        width:20%;
+        height:600px;
+        border-right:5px solid white;
+        border-left:5px solid white;
+        float:left;
+    }
+    .classic,.mM,.now{
+        list-style: none;
+        color:white;
+        letter-spacing: 2px;
+        font-size:25px;
+        line-height:100px;
+        text-align: center;
+    }
+    .mM .hLi{
+        border-top:4px solid white;
+        border-bottom: 4px solid white;
+        width:50%;
+        float:left;
+        height:92px;
+        text-align: center;
+    }
+    .hLi a{
+        width:98%;
+        height:92px;
+        text-decoration: none;
+        line-height:100px;
+        border-left:1px solid white;
+        border-right:1px solid white;
+        text-align: center;
+        float:left;
+        display: block;
+    }
+    .singer{
+        padding-left:1%;
+        width:76%;
+        height:550px;
+        float:left;
+        background: #db1a18;
+    }
+    .classic{
+           margin:0 auto;
+           width:98%;
+           height:262px;
+           padding-top:2px;
+           border-top:1px solid gray;
+        background-color: #db1a18;
+        border-bottom: 4px solid #d21715;
+        border-top:4px solid #eee;
+        list-style: none;
+        overflow: hidden;
+       }
+     .vLi{
+         padding-left:0.2%;
+         padding-right:0.2%;
+            width:19.6%;
+        height:262px;
+        float:left;
+        text-align: center;
+        line-height: 262px;
+         z-index: 1;
+    }
+    .now{
+        margin:0 auto;
+        width:98%;
+        height:262px;
+        padding-top:14px;
+        border-top:1px solid #dc1b19;
+        background-color: #db1a18;
+        overflow: hidden;
+    }
+    .moveto{
+        width:51%;
+        height:50px;
+        background: white;
+        position:absolute;
+        top:1578px;
+        right:5%;
+    }
+    .moveto ul{
+        list-style: none;
+        width:100%;
+        height:50px;
+        background: #c6c6c6;
+    }
+    .moveto ul li{
+        width:21%;
+        float:left;
+        padding-left:2%;
+        padding-right:2%;
+        height:50px;
+    }
+    .moveto ul li a{
+        text-align: center;
+        text-decoration: none;
+        line-height: 50px;
+        width:100%;
+        float:left;
+        height:50px;
+        display: block;
+        background: #f6f7fc;
+        color:black;
+    }
+    .moveto ul li a:hover{
+        background: #565dff;
+    }
+    .tLeft{
+        width:30%;
+        height:580px;
+        float:left;
+    }
+    .tMid{
+        padding-left: 20px;
+        width:40%;
+        height:600px;
+        float:left;
+    }
+    .Three>.tMid{
+        background: darkred;
+    }
+    #tMt{
+        width:90%;
+        height:80%;
+        margin-top:5%;
+        margin-left:5%;
+        font-style:italic;
+        line-height:30px;
+        border-radius: 20px;
+        box-shadow: #0f172a 10px 6px ;
+        font-weight: bold;
+
+    }
+    .tMid video{
+        margin-top:50px;
+        height: 500px;
+        width:100%;
+    }
+    .tLl,.tLr{
+        width:48%;
+        height:580px;
+        background: #c6c6c6;
+        float:left;
+    }
+    .nor0{
+        width:11%;
+        position: absolute;
+        top:1730px;
+        z-index: 1;
+    }
+    .nor1{
+        width:11%;
+        position:absolute;
+        top:1850px;
+        z-index: 1;
+    }
+    .nor2{
+        width:11%;
+        position:absolute;
+        top:1970px;
+        z-index: 1;
+    }
+    .nor3{
+        width:11%;
+        position:absolute;
+        top:2090px;
+        z-index: 1;
+    }
+    .nor4{
+        width:11%;
+        position: absolute;
+        top:2210px;
+        z-index: 1;
+    }
+    .nor5{
+        width:11%;
+        position: absolute;
+        top:1730px;
+        z-index: 1;
+    }
+    .nor6{
+        width:11%;
+        position:absolute;
+        top:1850px;
+        z-index: 1;
+    }
+    .nor7{
+        width:11%;
+        position:absolute;
+        top:1970px;
+        z-index: 1;
+    }
+    .nor8{
+        width:11%;
+        position:absolute;
+        top:2090px;
+        z-index: 1;
+    }
+    .nor9{
+        width:11%;
+        position: absolute;
+        top:2210px;
+        z-index: 1;
+
+    }
+    .active{
+        z-index:3;
+        width:16%;
+        height:200px;
+    }
+    .tRight{
+       margin-left:2%;
+        width:26.5%;
+        height:600px;
+        float:left;
+    }
+    .load{
+        width:100%;
+        height:600px;
+        background:url('../adu/zcbj.jpg');
+        overflow: hidden;
+        display:none;
+    }
+    .load #um{
+        width:3%;
+        height:22px;
+        background: #565dff;
+        position: absolute;
+        top:2080px;
+        left:73%;
+        text-align: center;
+        line-height: 20px;
+        color:white;
+    }
+    .load #uTip{
+        text-align: center;
+        color:white;
+        line-height: 30px;
+        width:6%;
+        height:30px;
+        background: #db1a18;
+        position: absolute;
+        top:2110px;
+        left:78.3%;
+        display:none;
+        font-size:12px;
+    }
+    .load #pTip{
+        text-align: center;
+        color:white;
+        line-height: 30px;
+        width:6%;
+        height:30px;
+        background: #db1a18;
+        position: absolute;
+        top:2180px;
+        left:78.3%;
+        display:none;
+        font-size:12px;
+    }
+    .load #pm{
+        width:3%;
+        height:22px;
+        background: #d21917;
+        position: absolute;
+        top:2150px;
+        left:73%;
+        text-align: center;
+        line-height: 20px;
+        color:white;
+    }
+    .load #lUsn{
+        width:6%;
+        height:20px;
+        background:white;
+        position: absolute;
+        top:2080px;
+        left:78.3%;
+    }
+    .load #lPas{
+        width:6%;
+        height:20px;
+        background:white;
+        position: absolute;
+        top:2150px;
+        left:78.3%;
+    }
+    #lBtn{
+        width:24%;
+        position:absolute;
+        top:2230px;
+        left:70.8%;
+        background:red;
+        background: rgba(255, 69, 0, 0.77);
+        overflow: hidden;
+    }
+    #lBtn #denglu{
+        margin-left:1%;
+        margin-right:1%;
+        width:32%;
+        height:69px;
+        float:left;
+        background:white;
+    }
+    #denglu a{
+        line-height: 69px;
+        width:100%;
+        height:69px;
+        float:left;
+        background:white;
+        text-decoration: none;
+        text-align: center;
+    }
+    #lBtn #zhuce{
+        margin-left:1%;
+       margin-right:1%;
+        width:30%;
+        height:69px;
+        float:left;
+        background:white;
+    }
+    #lBtn #zhuce a{
+        line-height: 69px;
+        text-align: center;
+        float:left;
+        width:100%;
+        height:69px;
+        background:white;
+        text-decoration: none;
+    }
+    #lBtn #wangji{
+        margin-left:1%;
+        margin-right:1%;
+        width:30%;
+        height:69px;
+        float:left;
+        background:white;
+    }
+    #lBtn #wangji a{
+        line-height: 69px;
+        text-align: center;
+        float:left;
+        width:100%;
+        height:69px;
+        background:white;
+        text-decoration: none;
+    }
+    #lBtn #wangji a:hover, #lBtn #zhuce a:hover,#denglu a:hover{
+        background: #575eff;
+    }
+    .load #queding{
+        width:4%;
+        height:24px;
+        background: #d21715;
+        position: absolute;
+        top:2190px;
+        left:73%;
+        text-align: center;
+        line-height: 20px;
+        font-size:12px;
+    }
+    .load #queding a{
+        display: block;
+        color: white;
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        line-height: 20px;
+        font-size:12px;
+    }
+    .load #queding a:hover{
+        background: #575eff;
+    }
+    .load #quxiao{
+        width:4%;
+        height:24px;
+        background: #d21715;
+        position: absolute;
+        top:2190px;
+        left:87%;
+        text-align: center;
+        line-height: 20px;
+        font-size:12px;
+    }
+    .load #quxiao a{
+        display: block;
+        color: white;
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .load #quxiao a:hover{
+        background: #575eff;
+    }
+    .tst{
+        width:100%;
+        height:600px;
+        background:url('../adu/zcbjmd.jpg');
+        overflow: hidden;
+    }
+    .reUm,.rePm,.reNm{
+        width:3%;
+        height:22px;
+        background: #565dff;
+        text-align: center;
+        line-height: 20px;
+        color:white;
+    }
+    .reUtip,.rePtip,.reNtip{
+        text-align: center;
+        color:white;
+        line-height: 30px;
+        width:16%;
+        height:30px;
+        background: #db1a18;
+        display:none;
+    }
+    .reUtip{
+        position:absolute;
+        top:1830px;
+        left:73%;
+        font-size:12px;
+    }
+    .rePtip{
+        position:absolute;
+        top:1910px;
+        left:73%;
+        font-size:12px;
+    }
+    .reNtip{
+        position: absolute;
+        top:2000px;
+        left:73%;
+        font-size:12px;
+    }
+    .reUm {
+        position: absolute;
+        top: 1800px;
+        left: 73%;
+    }
+    .rePm{
+        position:absolute;
+        top:1870px;
+        left:73%;
+    }
+    .reNm{
+        position:absolute;
+        top:1960px;
+        left:73%;
+    }
+    #reU{
+        width:8%;
+        height:20px;
+        background:white;
+        position: absolute;
+        top:1800px;
+        left:77%;
+    }
+    #reP{
+        width:8%;
+        height:20px;
+        background:white;
+        position: absolute;
+        top:1870px;
+        left:77%;
+    }
+    #reN{
+        width:10%;
+        height:20px;
+        background:white;
+        position: absolute;
+        top:1960px;
+        left:77%;
+    }
+    .reset{
+        width:4%;
+        height:24px;
+        background: #d21715;
+        position: absolute;
+        top:2140px;
+        left:74%;
+        text-align: center;
+        line-height: 20px;
+        font-size:12px;
+    }
+    .reset a{
+        display: block;
+        color: white;
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .reset a:hover{
+        background: #575eff;
+    }
+   .sure{
+       width:4%;
+       height:24px;
+       background: #d21715;
+       position: absolute;
+       top:2140px;
+       left:83%;
+       text-align: center;
+       line-height: 20px;
+       font-size:12px;
+   }
+   .sure a{
+       display: block;
+       color: white;
+       width: 100%;
+       height: 24px;
+       text-align: center;
+       line-height: 20px;
+   }
+   .sure a:hover{
+       background: #575eff;
+   }
+   .suggest{
+       width:20%;
+       position:absolute;
+       top:1740px;
+       left:76%;
+       height:300px;
+       background: #c6c6c6;
+       display: none;
+   }
+   .No{
+       width:20%;
+       height:24px;
+       background: #d21715;
+       position: absolute;
+       top:250px;
+       left:20%;
+       text-align: center;
+       line-height: 20px;
+   }
+   .No a{
+       display: block;
+       color: white;
+       width: 100%;
+       height: 24px;
+       text-align: center;
+       line-height: 20px;
+   }
+   .No a:hover{
+       background: #575eff;
+   }
+    .Yes{
+        width:20%;
+        height:24px;
+        background: #d21715;
+        position: absolute;
+        top:250px;
+        right:20%;
+        text-align: center;
+        line-height: 20px;
+    }
+    .Yes a{
+        display: block;
+        color: white;
+        width: 100%;
+        height: 24px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .Yes a:hover{
+        background: #575eff;
+    }
+    .smsg{
+        margin:20px;
+        color: #d21715;
+        width:80%;
+        height:50px;
+    }
+    .Ffir{
+        width:40%;
+        height:350px;
+        position: absolute;
+        top:3205px;
+        left:18%;
+        background: #0f172a;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .Fsec{
+        width:40%;
+        height:400px;
+        position: absolute;
+        top:3175px;
+        left:22%;
+        background: gold;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .Ftir{
+        width:40%;
+        height:450px;
+        position: absolute;
+        top:3150px;
+        left:26%;
+        background: #ea1c1c;
+        z-index: 3;
+        border-radius: 30px;
+    }
+    .Ffou {
+        width: 40%;
+        height: 500px;
+        position: absolute;
+        top: 3125px;
+        left: 30%;
+        background: #00edd2;
+        z-index: 4;
+        border-radius: 30px;
+    }
+    .Ffou .fimage{
+        width:80%;
+        height:45%;
+        position: absolute;
+        left:10%;
+        top:5%;
+        background:white;
+    }
+    .fimage>img{
+        width:100%;
+        height:100%;
+    }
+    .ftext{
+        width:80%;
+        height:44%;
+       position:absolute;
+        top:52%;
+        left:10%;
+    }
+    #ftxt{
+        width:96%;
+        height:100%;
+        margin-left:2%;
+        border-radius: 6px;
+        box-shadow: 10px 6px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .Ffiv{
+        width:40%;
+        height:450px;
+        position: absolute;
+        top:3150px;
+        left:34%;
+        background: #ff4500;
+        z-index: 3;
+        border-radius: 30px;
+    }
+    .Fsix{
+        width:40%;
+        height:400px;
+        position: absolute;
+        top:3175px;
+        left:38%;
+        background: peru;
+        z-index: 2;
+        border-radius: 20px;
+    }
+    .Fsev{
+        width:40%;
+        height:350px;
+        position: absolute;
+        top:3205px;
+        left:42%;
+        background: #8972d2;
+        z-index: 1;
+        border-radius: 10px;
+    }
+    .limg{
+        width:40%;
+        height:48%;
+        position: absolute;
+        left:2%;
+        top:4%;
+    }
+    .ltxt{
+        width:40%;
+        height:40%;
+        position: absolute;
+        left:2%;
+        top:54%;
+    }
+    .rimg{
+        width:40%;
+        height:48%;
+        position: absolute;
+        right:2%;
+        top:4%;
+    }
+    .rtxt{
+        width:40%;
+        height:40%;
+        position: absolute;
+        right:2%;
+        top:54%;
+    }
+    .limge,.rimge{
+        width:48%;
+        height:96%;
+    }
+    #txt1{
+        width: 300px;
+        height:50px;
+        position: absolute;
+        right: 8%;
+        top:400px;
+        border:2px solid grey;
+        box-shadow: 8px 4px;
+        letter-spacing: 4px;
+    }
+    #txt2{
+        width: 300px;
+        height:50px;
+        position: absolute;
+        top:600px;
+        right: 2%;
+        border:2px solid grey;
+        box-shadow: 8px 4px;
+    }
+    #txt3{
+        width:300px;
+        height:50px;
+        position: absolute;
+        top:800px;
+        right: 6%;
+        border:2px solid grey;
+        box-shadow: 8px 4px;
+    }
+   .changetxt p{
+       font-size:25px;
+       text-align: center;
+       line-height: 50px;
+       font-weight: bold;
+       color: #565dff;
+
+   }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style type="text/css">
+    #one{
+        width:200px;
+        height:200px;
+        background: red;
+    }
+</style>
+<script src="../js/jquery.js"></script>
+<script type="text/javascript">
+    $(function(){
+        $('#take').click(function(){
+           alert("123");
+        });
+        $('#take').live('mouseover',function(event){
+            event.preventDefault();
+            event.preventBubble();
+        })
+    })
+</script>
+<body>
+<div id="one" style="height:200px;width:200px;background:red;">
+   <div id="take" style="border:1px solid yellow;">
+       <p>提交</p>
+   </div>
+</div>
+</body>
+</html>
